@@ -331,7 +331,7 @@ svg {
 .hero-logo-art {
   position: absolute;
   z-index: 1;
-  top: 48%;
+  top: 58%;
   right: clamp(1rem, 5vw, 5rem);
   width: min(34vw, 470px);
   height: auto;
@@ -439,7 +439,7 @@ svg {
 .hero-stamp {
   position: absolute;
   z-index: 2;
-  top: 23%;
+  top: clamp(2.25rem, 6vh, 4rem);
   right: clamp(2rem, 7vw, 8rem);
   display: grid;
   place-items: center;
@@ -1441,11 +1441,12 @@ svg {
   }
 
   .hero-stamp {
-    top: 27%;
+    top: 3.25rem;
     right: 3rem;
   }
 
   .hero-logo-art {
+    top: 58%;
     right: 2rem;
     width: min(38vw, 390px);
   }
